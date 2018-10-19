@@ -3,7 +3,7 @@ import urllib
 import win32clipboard
 
 Header = {
-'Host':'us.ishadowx.net',
+'Host':'do.ishadowx.com',
 'Connection': 'keep-alive',
 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) \
 AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 \
@@ -14,7 +14,7 @@ version = "0.5"
 print("-----------SSR Password Fetcher-----------\
 \n"+'----------------- V'+version+" -----------------\n")
 
-req = urllib.request.Request('https://us.ishadowx.net', headers=Header)
+req = urllib.request.Request('https://do.ishadowx.com', headers=Header)
 content = urllib.request.urlopen(req).read()
 content = content.decode()
 
